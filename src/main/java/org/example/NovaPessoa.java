@@ -22,6 +22,7 @@ public class NovaPessoa {
         PreparedStatement stmt = conexao.prepareStatement(sql);
         stmt.setString(1, nome);
 
+
         stmt.execute();
 
         System.out.println("Pessoa incluida com sucesso!");
